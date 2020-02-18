@@ -1,0 +1,49 @@
+/* Comentário */
+
+/* 
+sintaxe:
+elemento {propriedade: valor; 
+    propriedade: valor}
+ */
+
+ h1 {
+    color: darkblue; 
+    text-align: center;
+    Font-size: 40px;
+    font-family: 'Tangerine', cursive;
+    font-family: 'Kalam', cursive;
+    font-family: 'Sarabun', sans-serif;
+    font-family: 'Cambay', sans-serif;
+    }
+    
+/* Seletor de ID */
+/*  # e o nome do ID */
+#paragrafo1{
+    color: purple;
+    font-size: medium;
+    font-family: 'Tangerine', cursive;
+    font-family: 'Kalam', cursive;
+    font-family: 'Sarabun', sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    background-color: burlywood;
+
+}
+
+#paragrafo2{
+    color: black;
+    font-size: medium;
+    font-family: 'Tangerine', cursive;
+    font-family: 'Kalam', cursive;
+    font-family: 'Sarabun', sans-serif;
+    font-style: italic;
+    font-size: 30px;
+    background-color: sienna;
+
+}
+
+.GRUPO1{
+    color: darkgoldenrod;
+    font-size: 25px;
+    font-style: inherit;
+}
