@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generation ex4</title>
+    <!-- Colocar um icone na aba -->
+    <link rel="icon" href="../ASSETS/IMAGENS/images.png">
+    <style>
+        /* organizar os seletores dos mais amplos para os mais específiccos */
+
+        * {
+            box-sizing: border-box;
+            /* resetar margin e padding */
+            margin:0; padding:0;
+        }
+
+        header {
+            background-color: rgb(95, 23, 228);
+            width: 600px;
+            height: 100px;
+        }
+
+        nav {
+            background-color: darkkhaki;
+            width: 100%;
+            height: 80px;
+        }
+
+        main {
+            background-color: darkgray;
+            width: 600px;
+            height: 420px;
+        }
+
+        article {
+            background-color: darkmagenta;
+            width: 400px;
+            height: 420px;
+            float: left;
+        }
+
+        section {
+            background-color: rgb(228, 32, 32);
+            width: 350px;
+            height: 200px;
+            margin-left: 25px;
+        }
+
+        aside {
+            background-color: gold;
+            width: 200px;
+            height: 420px;
+            float: right;
+        }
+
+        footer {
+            background-color: hotpink;
+            width: 600px;
+            height: 100px;
+        }
+
+        #caixa {
+            width: 600px;
+            height: 700px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="caixa">
+        <header>Header</header>
+        <nav></nav>
+        <main>
+            <article>
+                <section style="margin-top: 10px;">Section dentro do article</section>
+                <section>Section dentro do article</section>
+            </article>
+            <aside>
+            </aside>
+        </main>
+        <footer></footer>
+    </div>
+</body>
+
+</html>
