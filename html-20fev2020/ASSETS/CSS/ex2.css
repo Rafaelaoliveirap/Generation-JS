@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0 auto;
+}
+header{
+    width: 100%;
+    height: 200px;
+    background-color: chocolate;
+}
+nav{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(54, 26, 5);
+}
+
+main{
+    width: 100%;
+    height: 700px;
+    background-color: rgb(109, 53, 21);
+}
+footer{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(129, 90, 62);
+}
+img{
+    width: 110%;
+    margin-top: 43%;
+}
+a{ text-decoration: none;
+    color: white;
+
+}
+section{
+    width: 100%;
+    height: 300px;
+}
+.item{
+    color: rgb(193, 211, 94);
+    font-size: 1.0em;
+    display: inline-block;
+    padding-left: 17px;
+    padding-top: 15px;
+}
+.tresimagens{
+    width: 28%; 
+    float: left;
+    margin-top: 15px;
+    margin-right: 15px;
+    margin-left: 10px;
+    border: rgb(15, 7, 17) 2px solid;
+    box-shadow: rgb(66, 21, 80) 5px 8px;
+}
+
+#principal{
+    width: 50%;
+    margin: 0 auto;
+}
+#menu{
+    list-style: none;
+    float: right;
+    padding-right: 150px;
+    padding-top: 15px;
+}
+#flower{
+    width: 100px; margin: 0 auto;
+}
+#maca{
+    width: 30px; height: 30px;
+    float: left;
+}

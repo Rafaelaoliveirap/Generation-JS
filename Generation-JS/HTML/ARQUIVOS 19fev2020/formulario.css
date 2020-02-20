@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    text-align: center;
+    color: royalblue;
+}
+
+#caixa{
+    width: 500px;
+    height: 600px;
+    background-color: snow;
+}
