@@ -2,11 +2,9 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0 auto;
-    background-color:white;
+    
 }
-header{
-    width: 100%;
-}
+
 h4{
     color: rgb(139, 79, 243); 
     
@@ -14,51 +12,68 @@ h4{
 #title{
     color: rgb(139, 79, 243);
     text-align: center;
-    font-size: large;
-    margin-bottom: 20px;
+    
+}
 
-}
 #caixa{
-    width: 680px;
-    height: 700px;
-    margin-top: 15px; 
+    width: 55%;
+    margin: 0 auto;
 }
-#imagem{
+#Imagem{
     
-    padding-left: 10px;
-}
-#txt1{
-    width: 370px;
-    height: 150px;
-    float: left;
-    text-align: justify;
-    margin-right: 40px;
-    margin-left: 40px;
-}
-#txt2{
-    width: 180px;
-    height: 280px;
-    text-align: justify;
-    float: left;
-    margin-right: 30px;
-    margin-left: 40px;
-}
-#txt3{
-    width: 180px;
-    height: 280px;
-    text-align: justify;
-    float: left;
-    margin-right: 30px;
-}
-#txt4{
-    width: 180px;
-    height: 280px;
-    text-align: justify;
-    float: left;
-    margin-top: 10px;
-}
-@media (max-device-width: 300px)
-{
+    width: 20%;
+    float: right;
+    margin-right: 16%;
     
-    /* .menu { width:100%; } */
 }
+#js{
+    width: 55%;
+    float: left;
+    padding: 10px;
+}
+#ui{
+    width: 33.3%;
+    float: left;
+    padding: 10px;
+}
+#sass{
+    width: 33.3%;
+    float: left;
+    padding: 10px;
+}
+#wd{
+    width: 33.3%;
+    float: left;
+    padding: 10px;
+}
+@media (max-width: 600px){
+    #container{
+        background-color: rgb(71, 71, 99);
+    }
+    #title{
+        color: white;
+    }
+    h4 {
+        color: white;
+    }
+    #caixa {
+        width: 100%; 
+    }
+    #Imagem {
+        display: none;
+    } 
+    #js{
+        width: 90%; background-color: rgb(140,79,243); margin-left: 5%;
+    }
+    #ui {
+        width: 90%; margin-left: 5%;
+    }
+    #sass {
+        width: 90%;background-color: rgb(140,79,243);margin-left: 5%;
+    }
+    #wd {
+        width: 90%;margin-left: 5%;
+    }
+}
+    
+
